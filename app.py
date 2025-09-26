@@ -88,7 +88,7 @@ def execute_logins():
     
     logging.info(f"Recebida requisição para executar {num_logins} logins simultâneos.")
 
-    LOGIN_URL = "https://the-internet.herokuapp.com/login"
+    LOGIN_URL = os.getenv("LOGIN_URL")
     USERNAME = os.getenv("LOGIN_USER")
     PASSWORD = os.getenv("LOGIN_PASS")
 
