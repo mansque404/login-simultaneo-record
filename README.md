@@ -31,8 +31,12 @@ Este projeto implementa um dashboard web para executar e monitorar testes de log
 
 ## Pré-requisitos
 
--   Python 3.8 ou superior
--   Google Chrome instalado na máquina.
+-   **Python (versão 3.8 ou superior)**
+    -   É necessário ter o Python instalado. Caso não tenha, [**faça o download aqui**](https://www.python.org/downloads/).
+
+-   **Google Chrome**
+    -   O Selenium controla uma instância real do Google Chrome. É essencial que o navegador esteja instalado.
+    -   [**Faça o download aqui**](https://www.google.com/chrome/).
 
 ## Como Executar Localmente
 
