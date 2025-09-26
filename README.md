@@ -60,6 +60,7 @@ Este projeto implementa um dashboard web para executar e monitorar testes de log
         ```.env
         LOGIN_USER="tomsmith"
         LOGIN_PASS="SuperSecretPassword!"
+        LOGIN_URL="https://the-internet.herokuapp.com/login"
         ```
 
 5.  **Execute a Aplicação**
