@@ -22,11 +22,11 @@ Este projeto implementa um dashboard web para executar e monitorar testes de log
 |   |-- login_page.py
 |-- templates/
 |   |-- index.html
-|-- errors-screenshoots/  <-- Criada automaticamente ao ocorrer um erro
+|-- errors-screenshoots/  
 |-- app.py
-|-- .env                   <-- Arquivo de configuração de credenciais
+|-- .env                   
 |-- requirements.txt
-|-- .gitignore             <-- Importante para ignorar arquivos
+|-- .gitignore            
 ```
 
 ## Pré-requisitos
