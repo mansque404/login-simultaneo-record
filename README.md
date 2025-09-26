@@ -31,8 +31,12 @@ Este projeto implementa um dashboard web para executar e monitorar testes de log
 
 ## Pré-requisitos
 
--   Python 3.8 ou superior
--   Google Chrome instalado na máquina.
+-   **Python (versão 3.8 ou superior)**
+    -   É necessário ter o Python instalado. Caso não tenha, [**faça o download aqui**](https://www.python.org/downloads/).
+
+-   **Google Chrome**
+    -   O Selenium controla uma instância real do Google Chrome. É essencial que o navegador esteja instalado.
+    -   [**Faça o download aqui**](https://www.google.com/chrome/).
 
 ## Como Executar Localmente
 
@@ -42,12 +46,33 @@ Este projeto implementa um dashboard web para executar e monitorar testes de log
     cd nome-do-repositorio
     ```
 
-2.  **Crie um Ambiente Virtual**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # Linux/macOS
-    # venv\Scripts\activate    # Windows
+### 2. Crie um Ambiente Virtual (Recomendado)
+
+Primeiro, crie a pasta do ambiente:
+```bash
+python -m venv venv
+```
+
+**Depois, ative o ambiente conforme o seu sistema operacional:**
+
+* **No Windows (usando PowerShell):**
+    ```powershell
+    .\venv\Scripts\Activate.ps1
     ```
+    *(Observação: Se encontrar um erro sobre política de execução, feche o terminal, abra um novo **como Administrador** e execute `Set-ExecutionPolicy RemoteSigned`. Depois feche o terminal de administrador e tente ativar novamente no terminal normal.)*
+
+* **No Windows (usando Command Prompt - CMD):**
+    ```cmd
+    venv\Scripts\activate
+    ```
+
+* **No Linux ou macOS:**
+    ```bash
+    source venv/bin/activate
+    ```
+    
+ * Caso aconteça algum outro erro de ativação de script (mais usual em WINDOWS), ative manualmente via "login-simultaneo-record\venv\Scripts".
+ * Sendo os scripts: 'activate.bat', 'Activate.ps1'
 
 3.  **Instale as Dependências**
     ```bash
